@@ -16,6 +16,8 @@ body {
     background-color: #111;
     height: 100%;
     width: 100%;
+    overflow: auto;
+    scrollbar-width: none;
     display: flex;
     padding-top: 10px;
     gap: 30px;
@@ -30,6 +32,7 @@ body {
     border-radius: 10px;
     text-align: center;
     /* padding: 7px; */
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 img {
@@ -50,8 +53,10 @@ button{
     border: none;
     margin-top: 10px;
     border-radius: 5px;
+    color: #e6e5e5;
 }
 
 button:active{
     scale: 0.95;
+    
 }
